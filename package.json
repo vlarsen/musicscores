@@ -1,0 +1,9 @@
+{
+  "name": "lilypond-project",
+  "version": "0.1.0",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-make": "^1.0.0"
+  }
+}
