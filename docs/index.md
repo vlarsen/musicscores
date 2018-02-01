@@ -7,6 +7,11 @@ Music Scores
 
 Here is a collection of random scores.
 
+Classical
+---------
+* [Bartók, Mikrokosmos](IMSLP465640-PMLP3661-Bela_Bartok_-_Mikrokosmos.pdf)
+
+
 Can you feel the love tonight
 -----------------------------
 * [Can you feel the love tonight, original](can-you-feel-simple-original.pdf)
