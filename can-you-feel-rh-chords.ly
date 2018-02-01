@@ -31,20 +31,23 @@ upper = \relative c'' {
 		e1 d4 g d r a'2 b c d \bar "||" \break
 
 	    % There's a calm surrender
+	    \mark \default
 		\chordmode { c4/g } fis, <c e g> a' <b, d g> <g b d>2. | <g c e>4 fis' <c e g> a' | <b, d g>1 |
 		e4 fis g g8 a g4 d b'2 c4 b a b <d, a'>1 |
 
 	    % An enchanted moment
 		e4 fis g a | g d2. | e4 fis g a | g1 |
-		e4 fis g8 d d4 | d'-5 b-3 g-2 e-1 | c'-5 b a b a2. d,4-1 |
+		e4 fis g8 d d4 | d'-5 b-3 g-2 e-1 | c'-5 b a b a2. d,4-1 | \break
 
 	    % (And) can you feel
+	    \mark \default
 		d'2-5 b4 a4~ | a2 d4 b4~ | b2 g4 e4~ e1 | r2 d4-1 g4-2 |
 		c2-5 b2 | <fis a>1~ <fis a>1 |
 
 	    % ... It's enough for this
 		r2 e4-2 fis4 | g2 d4 d4 | d'2-5 b2-3 | g4 g4 e2 |
-		c'2-5 b2 | a2 b2 | <fis a>1~ <fis a>2. d4 |
+		c'2-5 b2 | a2 b2 | <fis a>1~ <fis a>2. d4 | \break
+
 		% (And) can you feel
 		d'2 b4 a4~ | a2 d4 b4~ | b2 g4 e4~ | e1 |
 		r2 d4-1 g4-2 | c2-5 b2 | <fis a>1~ | <fis a>1 |
@@ -110,7 +113,10 @@ lower = \relative c' {
 			\new Staff = "lower" \lower
 		>>
 	>>
-	\layout { }
+	\layout {
+	    \set Score.markFormatter = #format-mark-box-alphabet
+
+ }
 }
 
 
